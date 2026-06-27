@@ -264,5 +264,53 @@ Analysis of individual measurements against statistical control limits ($UCL$, $
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 13: T-Test Analysis (C1)
+**Comparison:** Machine 1 vs Machine 2
+**Condition:** P=100, T=303
+
+The plot shows the $t$-distribution and the rejection regions at $\alpha = 0.05$.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/ttest_c1.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
+
+---
+
+### Slide 14 & 15: Statistical Result (C1)
+- **T-Statistic:** 2.14 (Mock)
+- **P-Value:** 0.038 (Mock)
+
+**True Difference Exists?** Yes
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 16: T-Test Analysis (C2)
+**Comparison:** Machine 1 vs Machine 2
+**Condition:** P=300, T=373
+
+Visual representation of the test statistic relative to the critical threshold.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/ttest_c2.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
+
+---
+
+### Slide 17 & 18: Statistical Result (C2)
+- **T-Statistic:** 0.45 (Mock)
+- **P-Value:** 0.652 (Mock)
+
+**True Difference Exists?** No
+
+---
 # Bibliography
 <div id="refs"></div>
