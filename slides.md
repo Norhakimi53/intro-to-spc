@@ -271,3 +271,42 @@ Visual representation of the test statistic relative to the critical threshold.
 - **P-Value:** 0.652 (Mock)
 
 **True Difference Exists?** No
+
+---
+
+### Slide 19: Factor Analysis - Pressure (P)
+**Factor:** Pressure
+**P-Value:** 0.0000
+
+**Significant Effect?** Yes
+
+---
+
+### Slide 20: Factor Analysis - Temperature (T)
+**Factor:** Temperature
+**P-Value:** 0.0721
+
+**Significant Effect?** No
+
+---
+
+### Slide 21: Factor Analysis - Interaction (P*T)
+**Factor:** Pressure $\times$ Temperature
+**P-Value:** 0.3002
+
+**Significant Effect?** No
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 22: Interaction Plot
+**Machine 1 Resistance**
+
+This plot visualizes how the effect of Pressure on Resistance changes across different Temperature levels. Non-parallel lines indicate a potential interaction effect.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/m1_interaction.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
